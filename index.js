@@ -24,8 +24,14 @@ function destructivelyRemoveFirstCat(){
 }
 reset()
 function appendCat(name){
-    return[...cats, name]
+    return[...cats, name];
 }
 function prependCat(name){
-    return [name ,...cats]
+    return [name ,...cats];
+}
+function removeLastCat(){
+    return cats.slice(0, 2);
+}
+function removeFirstCat(){
+    return cats.slice(1);
 }
