@@ -6,4 +6,11 @@ function reset(){
     return cats.push('Milo', 'Otis', 'Garfield')
 }
 
+function destructivelyAppendCat(name){
+    return cats.push(name);
+}
 
+function destructivelyPrependCat(name){
+    reset()
+    return cats.unshift(name);
+}
