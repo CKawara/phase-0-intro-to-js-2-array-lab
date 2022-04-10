@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 8,
-    "start": "2022-04-10T05:54:54.696Z",
-    "end": "2022-04-10T05:54:54.958Z",
-    "duration": 262
+    "start": "2022-04-10T06:05:20.047Z",
+    "end": "2022-04-10T06:05:20.297Z",
+    "duration": 250
   },
   "tests": [
     {
@@ -30,7 +30,7 @@
     {
       "title": "prepends a cat to the beginning of the cats array",
       "fullTitle": "index.js Array functions destructivelyPrependCat(name) prepends a cat to the beginning of the cats array",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: destructivelyPrependCat is not defined\n    at Context.<anonymous> (test/indexTest.js:25:9)\n    at processImmediate (node:internal/timers:466:21)",
@@ -113,7 +113,7 @@
     {
       "title": "prepends a cat to the beginning of the cats array",
       "fullTitle": "index.js Array functions destructivelyPrependCat(name) prepends a cat to the beginning of the cats array",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: destructivelyPrependCat is not defined\n    at Context.<anonymous> (test/indexTest.js:25:9)\n    at processImmediate (node:internal/timers:466:21)",
