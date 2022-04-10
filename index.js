@@ -11,6 +11,14 @@ function destructivelyAppendCat(name){
 }
 
 function destructivelyPrependCat(name){
-    reset()
+    reset();
     return cats.unshift(name);
+}
+function destructivelyRemoveLastCat(){
+    reset();
+    return cats.pop();
+}
+function destructivelyRemoveFirstCat(){
+    reset();
+    return cats.shift();
 }
